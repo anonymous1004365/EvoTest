@@ -1,0 +1,17 @@
+project_id,version_id,test_suite_source,test_id,test_classification,num_trigger
+Mockito,8f,randoop,1,Pass,0
+Mockito,12f,randoop,1,Pass,0
+Mockito,7f,randoop,1,Pass,0
+Mockito,31f,randoop,1,Pass,0
+Mockito,18f,randoop,1,Pass,0
+Mockito,3f,randoop,1,Pass,0
+Mockito,38f,randoop,1,Pass,0
+Mockito,5f,randoop,1,Pass,0
+Mockito,1f,randoop,1,Pass,0
+Mockito,34f,randoop,1,Pass,0
+Mockito,32f,randoop,1,Pass,0
+Mockito,10f,randoop,1,Pass,0
+Mockito,23f,randoop,1,Pass,0
+Mockito,33f,randoop,1,Pass,0
+Mockito,21f,randoop,1,Pass,0
+Mockito,19f,randoop,1,Broken,-

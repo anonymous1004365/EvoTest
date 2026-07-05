@@ -1,0 +1,111 @@
+{
+  "total_bugs": 778,
+  "baselines": {
+    "EvoSuite": {
+      "paper": {
+        "detected": 160,
+        "fdr": 20.57,
+        "csr": 79.31
+      },
+      "bug_detection_files": 17,
+      "bug_detection_rows": 749,
+      "missing_rows_vs_778": 29,
+      "bug_detection_classification_counts": {
+        "Pass": 457,
+        "Fail": 160,
+        "Broken": 132
+      },
+      "bug_detection_direct_detected": 160,
+      "bug_detection_direct_fdr": 20.57,
+      "bug_detection_direct_csr": 79.31,
+      "consistency": "matches_paper_from_bug_detection"
+    },
+    "Randoop": {
+      "paper": {
+        "detected": 67,
+        "fdr": 8.61,
+        "csr": 73.01
+      },
+      "bug_detection_files": 17,
+      "bug_detection_rows": 612,
+      "missing_rows_vs_778": 166,
+      "bug_detection_classification_counts": {
+        "Pass": 501,
+        "Fail": 67,
+        "Broken": 44
+      },
+      "bug_detection_direct_detected": 67,
+      "bug_detection_direct_fdr": 8.61,
+      "bug_detection_direct_csr": 73.01,
+      "consistency": "matches_paper_from_bug_detection"
+    },
+    "HITS": {
+      "paper": {
+        "detected": 350,
+        "fdr": 44.99,
+        "csr": 83.16
+      },
+      "bug_detection_files": 17,
+      "bug_detection_rows": 585,
+      "missing_rows_vs_778": 193,
+      "bug_detection_classification_counts": {
+        "Pass": 279,
+        "Fail": 291,
+        "Broken": 15
+      },
+      "bug_detection_direct_detected": 291,
+      "bug_detection_direct_fdr": 37.4,
+      "bug_detection_direct_csr": 73.26,
+      "consistency": "Final HITS per-bug results match the paper FDR/RQ4 values; CSR is computed on the same final rows as (Fail+Pass)/778 = 647/778 = 83.16%.",
+      "final_file": "final_bug_results.csv",
+      "final_rows": 778,
+      "final_status_counts": {
+        "Fail": 350,
+        "Pass": 297,
+        "missing": 115,
+        "test_compile_fail_buggy": 6,
+        "Broken": 9,
+        "error": 1
+      },
+      "final_detected": 350,
+      "final_fdr": 44.99,
+      "final_per_project_matches_paper": true,
+      "final_compiled_pass_plus_fail": 647,
+      "final_csr_pass_plus_fail": 83.16,
+      "final_csr": 83.16
+    },
+    "Panta": {
+      "paper": {
+        "detected": 366,
+        "fdr": 47.04,
+        "csr": 89.46
+      },
+      "bug_detection_files": 17,
+      "bug_detection_rows": 729,
+      "missing_rows_vs_778": 49,
+      "bug_detection_classification_counts": {
+        "Pass": 526,
+        "Fail": 70,
+        "Broken": 133
+      },
+      "bug_detection_direct_detected": 70,
+      "bug_detection_direct_fdr": 9.0,
+      "bug_detection_direct_csr": 76.61,
+      "per_project_matches_paper": true,
+      "correction": "JxPath-1 changed from Fail to error because that Panta run did not produce a valid evaluable result under the paper counting policy; this aligns JxPath with the paper table (2/22).",
+      "consistency": "matches_paper_after_jxpath_error_correction",
+      "final_file": "final_bug_results.csv",
+      "final_rows": 756,
+      "final_status_counts": {
+        "Pass": 330,
+        "Fail": 366,
+        "test_compile_fail_buggy": 17,
+        "error": 40,
+        "compile_fail": 3
+      },
+      "final_detected": 366,
+      "final_fdr": 47.04,
+      "final_csr": 89.46
+    }
+  }
+}

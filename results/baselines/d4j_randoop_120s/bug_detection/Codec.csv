@@ -1,0 +1,15 @@
+project_id,version_id,test_suite_source,test_id,test_classification,num_trigger
+Codec,13f,randoop,1,Broken,-
+Codec,17f,randoop,1,Fail,2
+Codec,7f,randoop,1,Fail,2
+Codec,8f,randoop,1,Pass,0
+Codec,2f,randoop,1,Pass,0
+Codec,3f,randoop,1,Pass,0
+Codec,11f,randoop,1,Fail,76
+Codec,10f,randoop,1,Pass,0
+Codec,5f,randoop,1,Pass,0
+Codec,15f,randoop,1,Pass,0
+Codec,1f,randoop,1,Pass,0
+Codec,18f,randoop,1,Pass,0
+Codec,9f,randoop,1,Pass,0
+Codec,6f,randoop,1,Pass,0

@@ -1,0 +1,42 @@
+{
+  "policy": {
+    "third_party_source_included": false,
+    "evotest_baseline_runner_included": false,
+    "notes": "Baseline reproduction should use the original upstream repositories or Defects4J official tooling. This file records the references used for our comparisons."
+  },
+  "baselines": {
+    "AdverTest": {
+      "repo": "https://github.com/jmueducn/AdverTest.git",
+      "commit": "cd035e8a53445538a24ecab430c87306007fe58a",
+      "local_dir": "AdverTest"
+    },
+    "ChatUniTest": {
+      "repo": "https://github.com/ZJU-ACES-ISE/ChatUniTest.git",
+      "commit": "e7c18b5f4b9fcc66c4585e35af7ea99017674073",
+      "local_dir": "chatunitest-python"
+    },
+    "ChatUniTestCore": {
+      "repo": "https://github.com/ZJU-ACES-ISE/chatunitest-core.git",
+      "commit": "513056beadebee0571c0615e3b13bc84bce65179",
+      "local_dir": "chatunitest-core"
+    },
+    "HITS": {
+      "repo": "https://github.com/eecshope/HITS.git",
+      "commit": "f80b0b1d329457972789c9a678547d2f7fd0fade",
+      "local_dir": "hits-eecshope"
+    },
+    "Panta": {
+      "repo": "https://github.com/PANTA-TestAutomation/Panta.git",
+      "commit": "e8e0c679263b27b9e5bf590110827f4beadc52ce",
+      "local_dir": "panta"
+    },
+    "EvoSuite": {
+      "repo": "Defects4J built-in generator",
+      "commit": "N/A"
+    },
+    "Randoop": {
+      "repo": "Defects4J built-in generator",
+      "commit": "N/A"
+    }
+  }
+}

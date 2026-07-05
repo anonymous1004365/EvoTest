@@ -1,0 +1,113 @@
+{
+  "tool": "evosuite",
+  "total_evaluated": 612,
+  "detected": 151,
+  "not_detected": 366,
+  "broken": 95,
+  "fdr_percent": 29.21,
+  "fdr_formula": "151/517 (excludes 95 broken)",
+  "by_project": {
+    "Chart": {
+      "total": 22,
+      "detected": 7,
+      "broken": 3,
+      "fdr_percent": 36.84
+    },
+    "Cli": {
+      "total": 28,
+      "detected": 11,
+      "broken": 1,
+      "fdr_percent": 40.74
+    },
+    "Closure": {
+      "total": 66,
+      "detected": 1,
+      "broken": 16,
+      "fdr_percent": 2.0
+    },
+    "Codec": {
+      "total": 15,
+      "detected": 2,
+      "broken": 7,
+      "fdr_percent": 25.0
+    },
+    "Collections": {
+      "total": 24,
+      "detected": 4,
+      "broken": 5,
+      "fdr_percent": 21.05
+    },
+    "Compress": {
+      "total": 44,
+      "detected": 12,
+      "broken": 9,
+      "fdr_percent": 34.29
+    },
+    "Csv": {
+      "total": 14,
+      "detected": 6,
+      "broken": 3,
+      "fdr_percent": 54.55
+    },
+    "Gson": {
+      "total": 16,
+      "detected": 5,
+      "broken": 3,
+      "fdr_percent": 38.46
+    },
+    "JacksonCore": {
+      "total": 22,
+      "detected": 3,
+      "broken": 3,
+      "fdr_percent": 15.79
+    },
+    "JacksonDatabind": {
+      "total": 81,
+      "detected": 16,
+      "broken": 14,
+      "fdr_percent": 23.88
+    },
+    "JacksonXml": {
+      "total": 4,
+      "detected": 1,
+      "broken": 0,
+      "fdr_percent": 25.0
+    },
+    "Jsoup": {
+      "total": 73,
+      "detected": 17,
+      "broken": 18,
+      "fdr_percent": 30.91
+    },
+    "JxPath": {
+      "total": 22,
+      "detected": 6,
+      "broken": 3,
+      "fdr_percent": 31.58
+    },
+    "Lang": {
+      "total": 55,
+      "detected": 18,
+      "broken": 5,
+      "fdr_percent": 36.0
+    },
+    "Math": {
+      "total": 87,
+      "detected": 35,
+      "broken": 0,
+      "fdr_percent": 40.23
+    },
+    "Mockito": {
+      "total": 22,
+      "detected": 1,
+      "broken": 3,
+      "fdr_percent": 5.26
+    },
+    "Time": {
+      "total": 17,
+      "detected": 6,
+      "broken": 2,
+      "fdr_percent": 40.0
+    }
+  }
+}

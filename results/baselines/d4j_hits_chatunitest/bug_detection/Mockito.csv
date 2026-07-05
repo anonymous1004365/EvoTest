@@ -1,0 +1,15 @@
+project_id,version_id,test_suite_source,test_id,test_classification,num_trigger
+Mockito,8f,hits,1,Fail,2
+Mockito,35f,hits,1,Fail,1
+Mockito,38f,hits,1,Fail,5
+Mockito,7f,hits,1,Pass,0
+Mockito,4f,hits,1,Fail,5
+Mockito,15f,hits,1,Pass,0
+Mockito,14f,hits,1,Pass,0
+Mockito,11f,hits,1,Fail,8
+Mockito,17f,hits,1,Pass,0
+Mockito,6f,hits,1,Pass,0
+Mockito,22f,hits,1,Pass,0
+Mockito,5f,hits,1,Pass,0
+Mockito,18f,hits,1,Fail,16
+Mockito,12f,hits,1,Fail,7

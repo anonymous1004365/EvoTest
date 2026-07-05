@@ -1,0 +1,15 @@
+project_id,version_id,test_suite_source,test_id,test_classification,num_trigger
+Csv,14f,evosuite,1,Broken,-
+Csv,8f,evosuite,1,Fail,1
+Csv,11f,evosuite,1,Fail,1
+Csv,3f,evosuite,1,Pass,0
+Csv,5f,evosuite,1,Pass,0
+Csv,7f,evosuite,1,Pass,0
+Csv,15f,evosuite,1,Pass,0
+Csv,6f,evosuite,1,Fail,1
+Csv,4f,evosuite,1,Fail,1
+Csv,9f,evosuite,1,Broken,-
+Csv,13f,evosuite,1,Fail,7
+Csv,2f,evosuite,1,Fail,1
+Csv,16f,evosuite,1,Broken,-
+Csv,1f,evosuite,1,Pass,0

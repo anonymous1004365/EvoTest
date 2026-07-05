@@ -1,0 +1,15 @@
+project_id,version_id,test_suite_source,test_id,test_classification,num_trigger
+Csv,9f,panta,1,Pass,0
+Csv,11f,panta,1,Broken,-
+Csv,1f,panta,1,Fail,1
+Csv,13f,panta,1,Pass,0
+Csv,5f,panta,1,Fail,1
+Csv,2f,panta,1,Broken,-
+Csv,8f,panta,1,Broken,-
+Csv,3f,panta,1,Pass,0
+Csv,4f,panta,1,Pass,0
+Csv,6f,panta,1,Pass,0
+Csv,7f,panta,1,Pass,0
+Csv,16f,panta,1,Broken,-
+Csv,15f,panta,1,Pass,0
+Csv,14f,panta,1,Pass,0
