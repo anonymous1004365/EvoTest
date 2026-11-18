@@ -1,1 +1,1 @@
-
+# Evaluation on GPT-5.6 Luna<br/><br/>| Method | Detected Bug Number    | Fault Detection Rate |<br/>| --- | ---: | ---: |<br/>| Vanilla LLM | 319 |  41.00%   |<br/>| HITS | 267 | 34.32%  |<br/>| Zhao's |  246   |  31.62%  |<br/>| RAG | 481   |  61.83%  |<br/>| EvoTest |544  |  69.92% |
